@@ -92,8 +92,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 0.1
+  far clip plane: 100
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -161,7 +161,7 @@ Rigidbody:
   m_GameObject: {fileID: 1054256753253508}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 10
   m_AngularDrag: 10
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -190,6 +190,9 @@ MonoBehaviour:
   cursorMode: 0
   hotSpot: {x: 16, y: 16}
   strength: 1
+  recoilStrength: 2
+  recoilRadius: 1
+  recoilUpwardsModifier: 1
 --- !u!124 &124639353168358622
 Behaviour:
   m_ObjectHideFlags: 1

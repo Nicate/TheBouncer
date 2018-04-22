@@ -9,6 +9,10 @@ public class Richard : MonoBehaviour {
 
 	public float strength = 0.0f;
 
+	public float recoilStrength = 0.0f;
+	public float recoilRadius = 0.0f;
+	public float recoilUpwardsModifier = 0.0f;
+
 
 	void Start () {
 		Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
@@ -23,12 +27,15 @@ public class Richard : MonoBehaviour {
 			RaycastHit hit;
 
 			if(Physics.Raycast(ray, out hit)) {
-				Debug.Log("" + hit.distance + hit.collider.gameObject.name);
-				Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow, 1.0f);
-
+				// Throw target.
 				if(hit.rigidbody != null) {
 					hit.rigidbody.AddForceAtPosition(ray.direction * strength, hit.point, ForceMode.Impulse);
 				}
+
+				// Throw us.
+				Rigidbody richardBuddy = GetComponent<Rigidbody>();
+
+				richardBuddy.AddExplosionForce(recoilStrength, hit.point, recoilRadius, recoilUpwardsModifier, ForceMode.Impulse);
 			}
 		}
 	}
