@@ -1,42 +1,33 @@
 fileFormatVersion: 2
-guid: e9d1bdb9da9789c44aba8f0eb9d4b310
-timeCreated: 1524510906
+guid: 3967704c5c4090342966247e3acd8841
+timeCreated: 1524894192
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Couch
-    100004: CouchCollider1
-    100006: CouchCollider2
-    100008: CouchCollider3
-    100010: CouchCollider4
-    400000: //RootNode
-    400002: Couch
-    400004: CouchCollider1
-    400006: CouchCollider2
-    400008: CouchCollider3
-    400010: CouchCollider4
-    2100000: Material
-    2100002: No Name
-    2300000: //RootNode
-    2300002: Couch
-    2300004: CouchCollider1
-    2300006: CouchCollider2
-    2300008: CouchCollider3
-    2300010: CouchCollider4
-    3300000: //RootNode
-    3300002: Couch
-    3300004: CouchCollider1
-    3300006: CouchCollider2
-    3300008: CouchCollider3
-    3300010: CouchCollider4
-    4300000: Cube
-    4300002: CouchCollider4
-    4300004: CouchCollider3
-    4300006: CouchCollider2
-    4300008: CouchCollider1
-    4300010: Couch
+    100000: CouchCollider1
+    100002: CouchCollider2
+    100004: CouchCollider3
+    100006: CouchCollider4
+    100008: //RootNode
+    400000: CouchCollider1
+    400002: CouchCollider2
+    400004: CouchCollider3
+    400006: CouchCollider4
+    400008: //RootNode
+    2100000: No Name
+    2300000: CouchCollider1
+    2300002: CouchCollider2
+    2300004: CouchCollider3
+    2300006: CouchCollider4
+    3300000: CouchCollider1
+    3300002: CouchCollider2
+    3300004: CouchCollider3
+    3300006: CouchCollider4
+    4300000: CouchCollider4
+    4300002: CouchCollider3
+    4300004: CouchCollider2
+    4300006: CouchCollider1
   externalObjects: {}
   materials:
     importMaterials: 1

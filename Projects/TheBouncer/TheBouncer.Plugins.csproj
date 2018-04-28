@@ -5,16 +5,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{367A4B96-6EBE-ECF5-50E3-6ADDC14C6CC5}</ProjectGuid>
+    <ProjectGuid>{DB5E551E-A296-1351-CDFD-AACF9D9A4EBB}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp.dll</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass.dll</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.4.1f1</UnityVersion>
     <RootNamespace></RootNamespace>
@@ -234,13 +234,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="TheBouncer.Plugins.csproj">
-      <Project>{DB5E551E-A296-1351-CDFD-AACF9D9A4EBB}</Project>
-      <Name>TheBouncer.Plugins</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Objects\Richard\Scripts\Richard.cs" />
+    <Compile Include="Assets\Plugins\ForwardDecals\Scripts\DepthNormal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\ForwardDecals\Decal.shader" />

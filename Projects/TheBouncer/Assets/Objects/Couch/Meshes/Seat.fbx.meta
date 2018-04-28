@@ -1,42 +1,26 @@
 fileFormatVersion: 2
-guid: e9d1bdb9da9789c44aba8f0eb9d4b310
-timeCreated: 1524510906
+guid: 3030832b1efaaaf4f880f124ab172de8
+timeCreated: 1524885803
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Couch
-    100004: CouchCollider1
-    100006: CouchCollider2
-    100008: CouchCollider3
-    100010: CouchCollider4
+    100002: Seat
+    100004: SeatCollider
     400000: //RootNode
-    400002: Couch
-    400004: CouchCollider1
-    400006: CouchCollider2
-    400008: CouchCollider3
-    400010: CouchCollider4
-    2100000: Material
-    2100002: No Name
-    2300000: //RootNode
-    2300002: Couch
-    2300004: CouchCollider1
-    2300006: CouchCollider2
-    2300008: CouchCollider3
-    2300010: CouchCollider4
-    3300000: //RootNode
-    3300002: Couch
-    3300004: CouchCollider1
-    3300006: CouchCollider2
-    3300008: CouchCollider3
-    3300010: CouchCollider4
-    4300000: Cube
-    4300002: CouchCollider4
-    4300004: CouchCollider3
-    4300006: CouchCollider2
-    4300008: CouchCollider1
-    4300010: Couch
+    400002: Seat
+    400004: SeatCollider
+    2100000: No Name
+    2100002: Material
+    2300000: Seat
+    2300002: SeatCollider
+    2300004: //RootNode
+    3300000: Seat
+    3300002: SeatCollider
+    3300004: //RootNode
+    4300000: SeatCollider
+    4300002: Seat
   externalObjects: {}
   materials:
     importMaterials: 1

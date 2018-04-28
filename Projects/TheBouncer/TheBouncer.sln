@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBouncer.Plugins", "TheBouncer.Plugins.csproj", "{DB5E551E-A296-1351-CDFD-AACF9D9A4EBB}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBouncer", "TheBouncer.csproj", "{367A4B96-6EBE-ECF5-50E3-6ADDC14C6CC5}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB5E551E-A296-1351-CDFD-AACF9D9A4EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5E551E-A296-1351-CDFD-AACF9D9A4EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5E551E-A296-1351-CDFD-AACF9D9A4EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5E551E-A296-1351-CDFD-AACF9D9A4EBB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{367A4B96-6EBE-ECF5-50E3-6ADDC14C6CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{367A4B96-6EBE-ECF5-50E3-6ADDC14C6CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{367A4B96-6EBE-ECF5-50E3-6ADDC14C6CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU

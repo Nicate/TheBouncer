@@ -29,4 +29,5 @@ sysinfo.txt
 /Builds/
 *.blend1
 .autosave/
+*.resources/
 *.wav
